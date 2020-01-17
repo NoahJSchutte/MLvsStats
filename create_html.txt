@@ -1,0 +1,2 @@
+Open an Anaconda prompt and run the following to create a html file without the code but with output graphs:
+jupyter nbconvert notebook_blog.ipynb --TagRemovePreprocessor.remove_cell_tags="{'basic_hidden'}" --TagRemovePreprocessor.remove_input_tags="{'basic_output'}"
